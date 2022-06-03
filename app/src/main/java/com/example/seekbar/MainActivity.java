@@ -9,6 +9,15 @@ import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+/**
+ * 이 함수는 액티비티가 실행될때 호출되는 함수 입니다.
+ * 인텐트를 MainActivity 객체로 넘겨줍니다.
+ * @param view 뷰클래스의 객체를 인자로 넘겨받습니다.
+ * @return void 타입 입니다.
+ * @warning 주의사항 없습니다.
+ * @see
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
